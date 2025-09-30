@@ -7,6 +7,7 @@ document.getElementById("removed").style.display = "inline"
 } else{
 document.getElementById("removed").style.display = "none"
 }
+}
 
 let removeWeight = ()=>{
 let weight = parseInt(document.getElementById("weight").value)
