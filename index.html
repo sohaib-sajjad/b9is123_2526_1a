@@ -1,12 +1,21 @@
-<HTml>
+<!DOCTYPE html>
+<html>
     <head>
         <script>
-            //alert("Hello");//write a check function here...
+            function checkBaggageWeight() {
+                var weight = parseInt(document.getElementById('weight').value);
+                
+                if (weight > 16) {
+                    alert('Baggage is overweight');
+                } else {
+                    // If the weight is under or equal to 16kg, do nothing.
+                }
+            }
         </script>
     </head>
     <body>
         <input type="text" id="weight">
-        <!--//replace button onclick with call to check function.-->
-        <button onclick="alert('Checking Baggage weight: '+parseInt(document.getElementById('weight').value))">Check Baggage</button>
+        <!-- Replace button onclick with call to check function. -->
+        <button onclick="checkBaggageWeight()">Check Baggage</button>
     </body>
-</HTml>
+</html>
