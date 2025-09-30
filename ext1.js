@@ -1,5 +1,5 @@
 //write a function to alert if overweight (15kg) baggage
-function checkWeight = ()=>{
+function checkWeight(){
 let weight = parseInt(document.getElementById("weight").value)
 
 if (weight > 16){
@@ -9,7 +9,7 @@ document.getElementById("removed").style.display = "none"
 }
 }
 
-function removeWeight = ()=>{
+function removeWeight(){
 let weight = parseInt(document.getElementById("weight").value)
 let weightTobeRemoved = parseInt(document.getElementById("removed").value)
 
